@@ -1,0 +1,9 @@
+{
+    "name": "@app/api-v1",
+    "type": "module",
+    "dependencies": {},
+    "devDependencies": {
+        "typescript": "^5.3.3",
+        "vite": "^5.0.7"
+    }
+}

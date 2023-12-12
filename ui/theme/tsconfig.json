@@ -11,8 +11,8 @@
         "noUnusedParameters": true,
         "strict": true,
         "allowArbitraryExtensions": false,
-        "module": "ESNext",
-        "moduleResolution": "Bundler",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
         "resolveJsonModule": true,
         "importHelpers": true,
         "allowSyntheticDefaultImports": true,
@@ -35,11 +35,5 @@
         "stripInternal": true,
         "preserveWatchOutput": true,
         "inlineSources": false,
-        "jsx": "preserve",
-        "jsxFactory": "h",
-        "jsxImportSource": "vue"
-    },
-    "vueCompilerOptions": {
-        "target": 3
     }
 }

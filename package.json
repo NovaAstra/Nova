@@ -2,6 +2,9 @@
     "name": "root",
     "private": false,
     "type": "module",
+    "scripts": {
+        "dev": "pnpm --filter @app/main run dev"
+    },
     "packageManager": "pnpm@8.12.0",
     "engines": {
         "node": ">=18.17.0",

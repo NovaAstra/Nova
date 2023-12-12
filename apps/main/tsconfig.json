@@ -37,7 +37,17 @@
         "inlineSources": false,
         "jsx": "preserve",
         "jsxFactory": "h",
-        "jsxImportSource": "vue"
+        "jsxImportSource": "vue",
+        "baseUrl": ".",
+        "paths": {
+          "@/*": [
+            "./src/*"
+          ],
+        },
+        "types": [
+            "vite/client",
+            "node"
+          ]
     },
     "vueCompilerOptions": {
         "target": 3
