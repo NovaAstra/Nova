@@ -1,0 +1,9 @@
+{
+    "name": "@nova/ui",
+    "version": "0.0.1",
+    "private": false,
+    "type": "module",
+    "volta": {
+        "extends": "../../package.json"
+    }
+}
