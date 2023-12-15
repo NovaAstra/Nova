@@ -6,7 +6,6 @@
         "noFallthroughCasesInSwitch": true,
         "noImplicitOverride": true,
         "noImplicitReturns": true,
-        "noPropertyAccessFromIndexSignature": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "strict": true,
@@ -51,5 +50,8 @@
     },
     "vueCompilerOptions": {
         "target": 3
-    }
+    },
+    "include": [
+        "env.d.ts",
+    ]
 }
